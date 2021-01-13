@@ -7,54 +7,108 @@
 
     <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 
     <title>Mi paginita</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <a class="navbar-brand" href="#">Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbotron">
       <h1>Hoteles</h1>
+    </div>
       <div class="container">
           <div class="row">
-              <div class="col-sm">
+              <div class="col-sm-4">
                 <strong>Cómo funciona?</strong>
                   <p>Buscá los hoteles de acuerdo a tu preferencia.</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-4">
                   <strong>¿Dónde puedo reservar?</strong>
                     <p>Elegí la ciudad que te interese y luego realizá la reserva con tus datos.</p>
                   </div>
-                <div class="col-sm">
+                <div class="col-sm-4">
                   <strong>¿Cómo pago?</strong>
                   <p>Seleccioná tu forma de pago favorita.</p>
                   </div>
             </div>
-            <br>
-          <div class="row">
-            <div class="col-sm">
+            <hr>
+          <div class="d-flex flex-wrap">
+            <div class="col-sm-3">
               <strong>Hotel Punta del Este</strong>
-                <p>Ubicado a pocas cuadras de la península, experimentá esta hermosa ciudad y sus playas.</p>
+                <p>Ubicado a pocas cuadras de la península, esta hermosa ciudad y sus playas te esperan.</p>
                 <button type="button" class="btn btn-info">Reservar</button>
               </div>
-              <div class="col-sm">
+              <div class="col-sm-3">
                 <strong>Hotel en Montevideo</strong>
-                  <p>Hospedate en la emblemática Ciudad Vieja.</p>
+                  <p>Hospedate en la emblemática Ciudad Vieja y vacacioná en la capital.</p>
                   <button type="button" class="btn btn-info">Reservar</button>
                 </div>
-              <div class="col-sm">
-                <strong>Hotel en Buenos Aires</strong>
-                <p>Viví Buenos Aires y alojate en el corazón de la capital argentina.</p>
+              <div class="col-sm-3">
+                <strong>Hotel en La Paloma</strong>
+                <p>Disfrutá de las mejores playas de Rochas en este tranquilo balneario.</p>
                 <button type="button" class="btn btn-info">Reservar</button>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-3">
                   <strong>Hotel en Colonia del Sacramento</strong>
-                  <p>Recorré las míticas calles de esta antigua ciudad.</p>
+                  <p>Recorré las míticas calles de esta antigua ciudad y deleitate con sus paisajes.</p>
                   <button type="button" class="btn btn-info">Reservar</button>
                   </div>
-
+                  <div class="col-sm-3">
+                    <strong>Hotel en Termas de Arapey</strong>
+                    <p>Date una escapada al norte del país y disfrutá de las cálidas aguas termales.</p>
+                    <button type="button" class="btn btn-info">Reservar</button>
+                    </div>
+                  <div class="col-sm-3">
+                    <strong>Hotel en Piriápolis</strong>
+                    <p>Esta bella ciudad ofrece una rambla con los mejores atardeceres.</p>
+                    <button type="button" class="btn btn-info">Reservar</button>
+                    </div>
           </div>
-            
-
         </div>
-
+        <footer>
+          <div class="row">
+          <div class="col-sm-3">
+            <a href="www.facebook.com"><i class="fas fa-exclamation-triangle"></i></a>
+          </div>
+          <div class="col-sm-3">
+            <a href="www.instagram.com"><i class="fas fa-exclamation-triangle"></i></a>
+          </div>
+          <div class="col-sm-3">
+            <a href="www.twitter.com"><i class="fas fa-exclamation-triangle"></i></a>
+          </div>
+        </div>
+        </footer>
 
     <!--Jquery-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -62,5 +116,7 @@
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <!--Bootstrap js-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymus"></script>
   </body>
 </html>
