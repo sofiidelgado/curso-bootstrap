@@ -4,6 +4,7 @@
   "description": "curso con bootstrap ",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sofiidelgado/curso-bootstrap/issues"
   },
-  "homepage": "https://github.com/sofiidelgado/curso-bootstrap#readme"
+  "homepage": "https://github.com/sofiidelgado/curso-bootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
