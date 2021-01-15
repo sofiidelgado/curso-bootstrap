@@ -20,21 +20,22 @@
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">La empresa</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Acá iría el nombre de user
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Mi perfil</a>
+              <a class="dropdown-item" href="#">Favoritos</a>
+              <a class="dropdown-item" href="#">Mis reservas</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Cerrar sesión</a>
             </div>
           </li>
         </ul>
@@ -48,18 +49,29 @@
       <h1>Hoteles</h1>
     </div>
       <div class="container">
+        <h2>Descubre los hospedajes más baratos del Uruguay.</h2>
+        <br>
           <div class="row">
-              <div class="col-sm-4">
-                <strong>Cómo funciona?</strong>
-                  <p>Buscá los hoteles de acuerdo a tu preferencia.</p>
+              <div class="col-sm-3">
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Ingresá un destino" aria-label="Search">
+                </form>
                 </div>
-                <div class="col-sm-4">
-                  <strong>¿Dónde puedo reservar?</strong>
-                    <p>Elegí la ciudad que te interese y luego realizá la reserva con tus datos.</p>
+                <div class="col-sm-3">
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="date" aria-label="Search">
+                    <p>Llegada</p>
+                  </form>
                   </div>
-                <div class="col-sm-4">
-                  <strong>¿Cómo pago?</strong>
-                  <p>Seleccioná tu forma de pago favorita.</p>
+                  <div class="col-sm-3">
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="date"  aria-label="Search">
+                      <br>
+                      <p>Salida</p>
+                    </form>
+                    </div>
+                <div class="col-sm-3">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
                   </div>
             </div>
             <hr>
@@ -96,18 +108,22 @@
                     </div>
           </div>
         </div>
+        <hr>
         <footer>
+          <div class="container">
+            <p>Nuestras redes sociales</p>
           <div class="row">
           <div class="col-sm-3">
-            <a href="www.facebook.com"><i class="fas fa-exclamation-triangle"></i></a>
+            <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
           </div>
           <div class="col-sm-3">
-            <a href="www.instagram.com"><i class="fas fa-exclamation-triangle"></i></a>
+            <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
           </div>
           <div class="col-sm-3">
-            <a href="www.twitter.com"><i class="fas fa-exclamation-triangle"></i></a>
+            <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
+      </div>
         </footer>
 
     <!--Jquery-->
