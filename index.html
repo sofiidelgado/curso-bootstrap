@@ -12,6 +12,7 @@
     <title>Mi paginita</title>
   </head>
   <body>
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
       <a class="navbar-brand" href="#">Hoteles</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +45,7 @@
           <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
         </form>
       </div>
-    </nav>
+    </nav>-->
     <div class="jumbotron">
       <h1>Hoteles</h1>
     </div>
@@ -75,56 +76,71 @@
                   </div>
             </div>
             <hr>
-          <div class="d-flex flex-wrap">
-            <div class="col-sm-3">
+          <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-hotel">
               <strong>Hotel Punta del Este</strong>
                 <p>Ubicado a pocas cuadras de la península, esta hermosa ciudad y sus playas te esperan.</p>
-                <button type="button" class="btn btn-info">Reservar</button>
+                <button type="button" class="btn btn-info btn-reserva">Reservar</button>
               </div>
-              <div class="col-sm-3">
+              <div class="card-hotel">
                 <strong>Hotel en Montevideo</strong>
                   <p>Hospedate en la emblemática Ciudad Vieja y vacacioná en la capital.</p>
-                  <button type="button" class="btn btn-info">Reservar</button>
+                  <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                 </div>
-              <div class="col-sm-3">
+              <div class="card-hotel">
                 <strong>Hotel en La Paloma</strong>
                 <p>Disfrutá de las mejores playas de Rochas en este tranquilo balneario.</p>
-                <button type="button" class="btn btn-info">Reservar</button>
+                <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                 </div>
-                <div class="col-sm-3">
+                <div class="card-hotel">
                   <strong>Hotel en Colonia del Sacramento</strong>
                   <p>Recorré las míticas calles de esta antigua ciudad y deleitate con sus paisajes.</p>
-                  <button type="button" class="btn btn-info">Reservar</button>
+                  <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                   </div>
-                  <div class="col-sm-3">
+                  
+                  <div class="card-hotel">
                     <strong>Hotel en Termas de Arapey</strong>
                     <p>Date una escapada al norte del país y disfrutá de las cálidas aguas termales.</p>
-                    <button type="button" class="btn btn-info">Reservar</button>
+                    <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                     </div>
-                  <div class="col-sm-3">
+                  <div class="card-hotel">
                     <strong>Hotel en Piriápolis</strong>
                     <p>Esta bella ciudad ofrece una rambla con los mejores atardeceres.</p>
-                    <button type="button" class="btn btn-info">Reservar</button>
+                    <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                     </div>
           </div>
         </div>
         <hr>
-        <footer>
+        <footer>  
           <div class="container">
-            <p>Nuestras redes sociales</p>
           <div class="row">
-          <div class="col-sm-3">
-            <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <div class="col-sm-4">
+            <form>
+              Suscríbete a nuestra newsletter
+              <p><input class="form-control mr-sm-2" type="email"  placeholder="Ingresa tu e-mail" aria-label="e-mail"></p>
+              <button class="btn btn-info" type="submit">Suscribirme</button>
+            </form>
+            <br>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
           </div>
-          <div class="col-sm-3">
-            <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+          <div class="col-sm-4">
+            <adress>
+              <p>Uruguay 1441, Paysandú, Uruguay.</p>
+              <p>+59891234567</p>
+              <p>contacto@ejemplo.com</p>
+            </adress>
           </div>
-          <div class="col-sm-3">
-            <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+          <div class="col-sm-4 d-flex flex-column">
+            <a href="">Quiénes somos</a>
+            <a href="">Términos y condiciones</a>
+            <a href="">Trabaja con nosotros</a>
+            <a href="">Información legal</a>
           </div>
         </div>
-      </div>
-        </footer>
+        </div>
+      </footer>
 
     <!--Jquery-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
