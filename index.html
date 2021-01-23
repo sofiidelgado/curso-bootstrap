@@ -52,62 +52,80 @@
       <div class="container">
         <h2>Descubre los hospedajes más baratos del Uruguay.</h2>
         <br>
-          <div class="row">
-              <div class="col-sm-3">
-                <form class="form-inline my-2 my-lg-0">
+          <div class="d-flex flex-wrap flex-md-row align-items-right">
+              <div class="col-sm-4">
+                <form>
                   <input class="form-control mr-sm-2" type="search" placeholder="Ingresá un destino" aria-label="Search">
                 </form>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                   <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="date" aria-label="Search">
-                    <p>Llegada</p>
-                  </form>
-                  </div>
-                  <div class="col-sm-3">
-                    <form class="form-inline my-2 my-lg-0">
-                      <input class="form-control mr-sm-2" type="date"  aria-label="Search">
-                      <br>
-                      <p>Salida</p>
+                    <div class="input-group">
+                      <input type="date" class="form-control">
+                      <input type="date" class="form-control">
+                    </div>
                     </form>
                     </div>
-                <div class="col-sm-3">
-                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Buscar</button>
+                <div class="col-sm-4">
+                    <button class="btn btn-outline-info my-2 my-sm-0 btn-search" type="submit">Buscar</button>
                   </div>
             </div>
             <hr>
           <div class="d-flex flex-wrap flex-row-reverse">
-            <div class="card-hotel">
-              <strong>Hotel Punta del Este</strong>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+              <div>
+              <h4><strong>Hotel Punta del Este</strong></h4>
                 <p>Ubicado a pocas cuadras de la península, esta hermosa ciudad y sus playas te esperan.</p>
+              </div>
+              <div>
                 <button type="button" class="btn btn-info btn-reserva">Reservar</button>
               </div>
-              <div class="card-hotel">
-                <strong>Hotel en Montevideo</strong>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                <h4><strong>Hotel en Montevideo</strong></h4>
                   <p>Hospedate en la emblemática Ciudad Vieja y vacacioná en la capital.</p>
+                </div>
+                <div>
                   <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                 </div>
-              <div class="card-hotel">
-                <strong>Hotel en La Paloma</strong>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                <h4><strong>Hotel en La Paloma</strong></h4> 
                 <p>Disfrutá de las mejores playas de Rochas en este tranquilo balneario.</p>
+                </div>
+                <div>
                 <button type="button" class="btn btn-info btn-reserva">Reservar</button>
                 </div>
-                <div class="card-hotel">
-                  <strong>Hotel en Colonia del Sacramento</strong>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+               <div>
+                  <h4><strong>Hotel en Colonia del Sacramento</strong></h4>    
                   <p>Recorré las míticas calles de esta antigua ciudad y deleitate con sus paisajes.</p>
+                </div>
+                <div>
                   <button type="button" class="btn btn-info btn-reserva">Reservar</button>
-                  </div>
-                  
-                  <div class="card-hotel">
-                    <strong>Hotel en Termas de Arapey</strong>
+                </div>
+            </div>  
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                 <div>
+                    <h4><strong>Hotel en Termas de Arapey</strong></h4>     
                     <p>Date una escapada al norte del país y disfrutá de las cálidas aguas termales.</p>
+                  </div>
+                  <div>
                     <button type="button" class="btn btn-info btn-reserva">Reservar</button>
-                    </div>
-                  <div class="card-hotel">
-                    <strong>Hotel en Piriápolis</strong>
+                  </div>
+            </div>
+            <div class="card-hotel d-flex flex-column justify-content-between">
+                <div>
+                    <h4><strong>Hotel en Piriápolis</strong></h4>
                     <p>Esta bella ciudad ofrece una rambla con los mejores atardeceres.</p>
+                  </div>
+                 <div>
                     <button type="button" class="btn btn-info btn-reserva">Reservar</button>
-                    </div>
+                  </div>
+            </div>
           </div>
         </div>
         <hr>
@@ -132,7 +150,7 @@
               <p>contacto@ejemplo.com</p>
             </adress>
           </div>
-          <div class="col-sm-4 d-flex flex-column">
+          <div class="col-sm-4 d-flex flex-column align-items-end">
             <a href="">Quiénes somos</a>
             <a href="">Términos y condiciones</a>
             <a href="">Trabaja con nosotros</a>
