@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
 
     <title>Uy-turismo</title>
   </head>
@@ -19,18 +21,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item active"><a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">Quiénes somos</a></li>
           <li class="nav-item"><a class="nav-link" href="">Precios</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Nuestros destinos</a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Acá iría el nombre de user
+              Usuario
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Mi perfil</a>
-              <a class="dropdown-item" href="#">Favoritos</a>
-              <a class="dropdown-item" href="#">Mis reservas</a>
+              <a class="dropdown-item" href="#"><span class="oi oi-person iconos"></span>Mi perfil</a>
+              <a class="dropdown-item" href="#"><span class="oi oi-check iconos"></span>Mis reservas</a>
+              <a class="dropdown-item" href="#"><span class="oi oi-heart iconos"></span>Favoritos</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Cerrar sesión</a>
             </div>
@@ -45,14 +47,16 @@
     <div class="jumbotron">
       <h1>UY- TURISMO</h1>
     </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+      <li class="breadcrumb-item" aria-current="page"><a  class="body-link" href="index.html">Inicio</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Quiénes somos</li>
+      </ol>
+      </nav>
+      <hr>
       <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Quiénes somos</li>
-            </ol>
-            </nav>
-        </div>
+
+      </div>
         
         <footer>  
           <div class="container">
@@ -70,9 +74,9 @@
           </div>
           <div class="col-sm-4">
             <adress>
-              <p>Uruguay 1441, Paysandú, Uruguay.</p>
-              <p>+59891234567</p>
-              <p>contacto@ejemplo.com</p>
+              <p><span class="oi oi-location iconos"></span> Uruguay 1441, Paysandú, Uruguay.</p>
+              <p><span class="oi oi-phone iconos"></span>+59891234567</p>
+              <p><span class="oi oi-envelope-closed iconos"></span> contacto@ejemplo.com</p>
             </adress>
           </div>
           <div class="col-sm-4 d-flex flex-column align-items-end">
