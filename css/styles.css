@@ -50,3 +50,7 @@ footer {
 .iconos {
     padding-right: 10px;
 }
+
+.fa-star {
+    color: goldenrod;
+}
