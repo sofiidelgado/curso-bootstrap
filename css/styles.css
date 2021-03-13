@@ -1,8 +1,17 @@
 .jumbotron {
     margin-top: 50px;
-    background-color: #1DD36A ;
+    background-color: #0C8BA7 ;
 }
+  
+.primer-busqueda {
+    margin: 0;
+    background-size: auto;
+    padding: 25px;
+    background: #ECECEC ;
+    
+} 
 
+  
 h1 {
     color: white
 }
